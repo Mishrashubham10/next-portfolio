@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    height: 5rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navHeader {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navItems {
+    font-weight: 400;
+    display: flex;
+    gap: 1.25rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 640px) {
+    .navItem {
+        display: none;
+    }
+}

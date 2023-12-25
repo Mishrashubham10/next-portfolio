@@ -1,0 +1,11 @@
+.scroll {
+  background-color: var(--softBg);
+  color: var(--softTextColor);
+  width: 100%;
+  height: 20vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}

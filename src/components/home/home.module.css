@@ -1,0 +1,70 @@
+.home {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #132043, #001524, #191717);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 2rem;
+}
+
+.left .leftHeading {
+    font-size: 6.25rem;
+    font-weight: 500;
+    transition: all ease-in-out;
+}
+
+.leftHeading:hover {
+    transform: scale(1.1);
+}
+
+.left .leftDesc {
+    line-height: 1.5rem;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.rightHeading {
+    font-size: 3rem;
+    transition: all ease-in-out;
+}
+
+.rightHeading:hover {
+    transform: scale(1.1);
+}
+
+.project {
+    border-bottom: 1px solid lightgray;
+    padding: 0.3rem;
+    text-align: left;
+    transition: all ease-in-out;
+    width: max-content;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
