@@ -17,6 +17,19 @@
     margin: 0 auto;
 }
 
+.infoButton {
+    width: max-content;
+    color: white;
+    padding: 0.6rem 2rem;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 0.6rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 .left {
     flex: 1;
     display: flex;
@@ -67,4 +80,48 @@
 
 .project:hover {
     transform: scale(1.1);
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1024px) {
+     .left .leftHeading {
+        font-size: 4rem;
+        transition: none;
+    }
+
+    .right .rightHeading {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .left .leftHeading {
+        font-size: 3rem;
+    }
+
+    .right .rightHeading {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left .leftHeading {
+        font-size: 2.3rem;
+        transition: none;
+    }
+
+    .right .rightHeading {
+        font-size: 1.5rem;
+    }
 }

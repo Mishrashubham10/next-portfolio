@@ -19,7 +19,7 @@
 
 .responsiveMenu {
     position: absolute;
-    top: 4rem;
+    top: 5rem;
     left: 0;
     background-color: var(--bg);
     height: calc(100vh - 6.25rem);
@@ -30,6 +30,7 @@
     justify-content: center;
     gap: 3.125rem;
     font-size: 2.3rem;
+    z-index: 99;
 }
 
 /* RESPONSIVE DESIGN */

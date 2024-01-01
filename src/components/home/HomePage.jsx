@@ -12,6 +12,7 @@ const HomePage = () => {
             My name is Shubham Mishra, I&apos;m a full-stack developer based in Mumbai , India. I have developed many types of Full-Mern-Stack projects from a Todo App to Blog Creating App, Workout App, and E-commerce sites.
           </p>
           <p className={styles.leftDesc}>I&apos;m passionate about learning new technologies and especially AI.</p>
+          <button className={styles.infoButton}>Read More</button>
           </div>
           <div className={styles.right}>
             <div className={styles.line}></div>

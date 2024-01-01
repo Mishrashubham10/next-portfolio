@@ -1,3 +1,55 @@
 .contact {
-    background-color: red;
+    background-color: var(--bg);
+    color: var(--textColor);
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    gap: 2.5rem;
+}
+
+.imgContainer {
+    flex: 1;
+    position: relative;
+    height: 400px;
+}
+
+.img {
+    object-fit: contain;
+}
+
+.formContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1.5rem 0;
+    gap: 1rem;
+    color: white;
+}
+
+.formContainer input, .formContainer textarea {
+    padding: 0.7rem 1rem;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+.formContainer textarea {
+    height: 4rem;
+}
+
+.formContainer button {
+    width: 90%;
+    padding: 0.7rem;
+    border: none;
+    color: white;
+    background-color: #2D3250;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
 }
