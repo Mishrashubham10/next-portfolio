@@ -53,3 +53,10 @@
     border-radius: 0.3rem;
     margin-top: 1rem;
 }
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 768px) {
+    .imgContainer {
+        display: none;
+    }
+}
